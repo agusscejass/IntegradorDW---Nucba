@@ -144,15 +144,15 @@
     }
 
     .cards__item {
-        flex: 1 1 100%; /* Alinea las cards en una columna */
+        flex: 1 1 100%; 
       }
     
       .cards__title {
-        font-size: 1.2rem; /* Tamaño de fuente más pequeño para móviles */
+        font-size: 1.2rem; 
       }
     
       .cards__header i {
-        font-size: 1.5rem; /* Reducir el tamaño del icono */
+        font-size: 1.5rem;
       }
 
     #contact .contact__title {
