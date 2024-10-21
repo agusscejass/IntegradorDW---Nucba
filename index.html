@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/svg" href="./icon/favicon.svg">
+    <script
+      src="https://kit.fontawesome.com/32d9d2e20f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Code Wave</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="header__logo">
+        <a href="index.html"><img src="./img/logo.png" alt="logo code wave" /></a>
+      </div>
+
+      <!--BARRA DE NAVEGACION-->
+      <nav class="header__nav">
+        <div class="user">
+          <a href="/Auth/login.html"><i class="fa-regular fa-user fa-lg" style="color: #ffffff;"></i></a>
+        </div>
+        <!--MENU HAMBURGUESA-->
+        <label for="menu-hamburguesa" class="menu_label">
+          <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </label>
+        <input type="checkbox" id="menu-hamburguesa">
+        <ul class="header__list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#about-us">Sobre Nosotros</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      
+      <!--LOGIN Y REGISTER-->
+      <div class="header__actions">
+        <a href="./Auth/login.html" target="_blank">Iniciar sesion</a>
+        <a href="./Auth/registro.html" class="header__button--register" target="_blank"
+          >Registrarse</a
+        >
+      </div>
+    </header>
+
+    <!--MAIN-->
+    <main>
+      <!--HERO-->
+      <section id="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            ¡Aprende a programar con nuestros cursos en línea!
+          </h1>
+          <p class="hero__text">
+            La mejor plataforma para aprender a programar
+          </p>
+          <a href="#" class="hero__button">Comenzar</a>
+        </div>
+      </section>
+
+      <!--SOBRE NOSOTROS-->
+      <section id="about-us">
+        <div class="about-us__title">
+          <h2>Aprender a Programar es Posible</h2>
+        </div>
+
+        <div class="about-us__text">
+          <p>
+            En CodeWave, estamos aquí para acompañarte desde los primeros pasos
+            en tu camino hacia la programación. Sabemos que comenzar puede
+            parecer desafiante, pero hemos diseñado nuestros cursos
+            específicamente para quienes no tienen experiencia previa. Con
+            explicaciones sencillas, ejemplos prácticos y el apoyo de una
+            comunidad comprometida, aprenderás a programar de manera progresiva
+            y sin complicaciones. Nuestro objetivo es brindarte las bases
+            sólidas que necesitas para entender la lógica de la programación y
+            avanzar en el desarrollo de habilidades técnicas. En CodeWave,
+            aprenderás a tu propio ritmo, con contenidos accesibles y
+            actualizados que te permitirán convertirte en un programador
+            competente, desde cero
+          </p>
+        </div>
+      </section>
+
+      <!--CURSOS-->
+      <section id="cursos">
+        <div class="cursos__info">
+          <h1 class="cursos__title">Explora nuestros cursos</h1>
+          <p class="cursos__text">
+            En Codewave, hemos diseñado una serie de cursos que te guiarán desde
+            los conceptos básicos hasta proyectos más avanzados. Si nunca has
+            programado antes, no te preocupes: cada curso está estructurado para
+            que aprendas a tu ritmo, con ejemplos claros y ejercicios prácticos.
+            Empieza con los fundamentos y avanza hacia tecnologías y lenguajes
+            más complejos a medida que ganas confianza. Ya sea que quieras
+            aprender desarrollo web, lenguajes de programación como Python o
+            explorar el mundo del desarrollo móvil, nuestros cursos te brindarán
+            las herramientas necesarias para dar tus primeros pasos y avanzar en
+            tu carrera de programación.
+          </p>
+        </div>
+
+        <!--CARDS-->
+        <div class="cards">
+          <div class="cards__item">
+            <div class="cards__header">
+              <h2 class="cards__title">Introduccion a la programacion</h2>
+              <i class="fa-solid fa-code fa-xl" style="color: #ffffff"></i>
+            </div>
+            <ul class="cards__list">
+              <li class="cards__list-item">¿Qué es la Programación?</li>
+              <li class="cards__list-item">Variables y Tipos de Datos</li>
+              <li class="cards__list-item">Estructuras Condicionales</li>
+              <li class="cards__list-item">Ciclos y Bucles</li>
+              <li class="cards__list-item">Funciones</li>
+            </ul>
+
+            <div class="cards__button">
+              <a href="#">Inscribirse</a>
+            </div>
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__header">
+              <h2 class="cards__title">Desarrollo Web</h2>
+              <i class="fa-solid fa-desktop fa-xl" style="color: #ffffff"></i>
+            </div>
+            <ul class="cards__list">
+              <li class="cards__list-item">Introducción al Desarrollo Web</li>
+              <li class="cards__list-item">
+                ¿Qué es el Frontend? Tecnologías y Herramientas
+              </li>
+              <li class="cards__list-item">
+                Backend: Construyendo la Lógica del Servidor
+              </li>
+              <li class="cards__list-item">
+                Frameworks de Desarrollo Web: Angular, React, y Vue
+              </li>
+              <li class="cards__list-item">
+                API: Conexión entre Frontend y Backend
+              </li>
+            </ul>
+            <div class="cards__button">
+              <a href="#">Inscribirse</a>
+            </div>
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__header">
+              <h2 class="cards__title">Bases de Datos y SQL</h2>
+              <i class="fa-solid fa-database fa-xl" style="color: #ffffff"></i>
+            </div>
+            <ul class="cards__list">
+              <li class="cards__list-item">¿Qué es una Base de Datos?</li>
+              <li class="cards__list-item">
+                Introducción a SQL: Lenguaje de Consultas
+              </li>
+              <li class="cards__list-item">Operaciones CRUD en SQL</li>
+              <li class="cards__list-item">
+                Relaciones y Modelado de Bases de Datos
+              </li>
+              <li class="cards__list-item">
+                Bases de Datos NoSQL: Diferencias y Aplicaciones
+              </li>
+            </ul>
+            <div class="cards__button">
+              <a href="#">Inscribirse</a>
+            </div>
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__header">
+              <h2 class="cards__title">Git y GitHub</h2>
+              <i class="fa-brands fa-github fa-xl" style="color: #ffffff"></i>
+            </div>
+            <ul class="cards__list">
+              <li class="cards__list-item">
+                ¿Por qué Usar Control de Versiones?
+              </li>
+              <li class="cards__list-item">
+                Primeros Pasos con Git: Comandos Básicos
+              </li>
+              <li class="cards__list-item">
+                Trabajando con Repositorios en GitHub
+              </li>
+              <li class="cards__list-item">
+                Ramas y Colaboración en Proyectos
+              </li>
+              <li class="cards__list-item">
+                Gestionando Conflictos de Código en Git
+              </li>
+            </ul>
+            <div class="cards__button">
+              <a href="#">Inscribirse</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTACTO-->
+      <section id="contact">
+        <h1 class="contact__title">Formulario Contacto</h1>
+
+        <div class="contact__info">
+          <!--ITEMS-->
+          <div class="contact__info__left">
+            <div class="contact__info-item">
+              <i class="fa-solid fa-map-pin"></i>
+              <p class="contact__info-text">Calle 10 812 - La Plata</p>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <p class="contact__info-text">codewave@gmail.com</p>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="fa-solid fa-phone"></i>
+              <p class="contact__info-text">+541122142580</p>
+            </div>
+          </div>
+
+          <!--FORMULARIO-->
+          <form
+            action="https://formspree.io/f/mvgoobng"
+            method="POST"
+            class="contact__form"
+          >
+            <input type="text" placeholder="Nombre" name="nombre" required />
+            <input
+              type="mail"
+              placeholder="Correo Electronico"
+              name="email"
+              required
+            />
+            <input type="text" placeholder="Asunto" name="asunto" required />
+            <textarea
+              placeholder="Mensaje..."
+              name="mensaje"
+              required
+            ></textarea>
+            <input
+              type="submit"
+              value="Enviar"
+              name="enviar"
+              class="contact__form--button"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!--PREGUNTAS FRECUENTES-->
+      <section id="preguntas-frecuentes">
+        <div class="contenedor-acordeon">
+          <div class="contenedor-header">
+            <h2>Preguntas frecuentes sobre los cursos de programacion</h2>
+            <p>Sobre los cursos de programacion</p>
+          </div>
+          <div class="acordeon">
+            <input type="checkbox" id="btn-acordeon1" class="btn-acordeon" />
+            <label for="btn-acordeon1">
+              ¿Qué lenguajes de programación puedo aprender en Code Wave?
+            </label>
+            <div class="contenido-acordeon">
+              <p>
+                Ofrecemos cursos en lenguajes populares como HTML, CSS,
+                JavaScript, Python, y más. Además, te guiamos desde los
+                conceptos básicos hasta temas avanzados.
+              </p>
+            </div>
+          </div>
+          <div class="linea-separacion"></div>
+          <div class="acordeon">
+            <input type="checkbox" id="btn-acordeon2" class="btn-acordeon" />
+            <label for="btn-acordeon2">
+              ¿Necesito experiencia previa para comenzar?
+            </label>
+            <div class="contenido-acordeon">
+              <p>
+                No, nuestros cursos están diseñados para principiantes
+                absolutos. Comenzamos con lo más básico para que puedas avanzar
+                a tu propio ritmo.
+              </p>
+            </div>
+          </div>
+          <div class="linea-separacion"></div>
+          <div class="acordeon">
+            <input type="checkbox" id="btn-acordeon3" class="btn-acordeon" />
+            <label for="btn-acordeon3">
+              ¿Cómo accedo a los materiales del curso?
+            </label>
+            <div class="contenido-acordeon">
+              <p>
+                Una vez registrado, tendrás acceso a los materiales del curso en
+                tu cuenta. Puedes ingresar desde cualquier dispositivo y
+                estudiar en línea a tu propio ritmo.
+              </p>
+            </div>
+          </div>
+          <div class="linea-separacion"></div>
+          <div class="acordeon">
+            <input type="checkbox" id="btn-acordeon4" class="btn-acordeon" />
+            <label for="btn-acordeon4">
+              ¿Recibo un certificado al finalizar un curso?
+            </label>
+            <div class="contenido-acordeon">
+              <p>
+                Sí, todos los estudiantes que completen satisfactoriamente
+                nuestros cursos recibirán un certificado digital que podrán
+                agregar a su portafolio profesional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+      <section id="footer">
+        <div class="footer__info">
+          <!--ITEMS-->
+          <div class="footer__items">
+            <h3>Politica del sitio</h3>
+            <div class="footer__linea__separacion"></div>
+            <ol class="footer__list">
+              <a href="#"><li>Politica de privacidad</li></a>
+              <a href="#"><li>Terminos y condiciones</li></a>
+              <a href="#"><li>Cookies</li></a>
+            </ol>
+          </div>
+
+          <div class="footer__items">
+            <h3>Soporte</h3>
+            <div class="footer__linea__separacion"></div>
+            <ol class="footer__list">
+              <a href="#"><li>Ayuda en linea</li></a>
+              <a href="#"><li>Guia de usuario</li></a>
+              <a href="#"><li>Enviar sugerencias</li></a>
+            </ol>
+          </div>
+
+          <div class="footer__items">
+            <h3>Acerca de nosotros</h3>
+            <div class="footer__linea__separacion"></div>
+            <ol class="footer__list">
+              <a href="#"><li>Historia</li></a>
+              <a href="#"><li>Equipo</li></a>
+              <a href="#"><li>Nuestra mision</li></a>
+            </ol>
+          </div>
+
+          <div class="footer__items">
+            <h3>Seguinos en</h3>
+            <div class="footer__linea__separacion"></div>
+            <ol class="footer__list__redes">
+              <i class="fa-brands fa-facebook fa-xl" style="color: #a7a9be"></i>
+              <i
+                class="fa-brands fa-instagram fa-xl"
+                style="color: #a7a9be"
+              ></i>
+              <i
+                class="fa-brands fa-square-x-twitter fa-xl"
+                style="color: #a7a9be"
+              ></i>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
